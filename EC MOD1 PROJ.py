@@ -1,0 +1,6 @@
+name = input('Enter your name:')
+age = eval(input('Enter your age:'))
+current_year = eval(input('Enter the current year:'))
+birth_year = (current_year - age)
+birth_year1 = (current_year - age - 1)
+print('Dear', name,', you were born in either', birth_year, 'or', birth_year1)
